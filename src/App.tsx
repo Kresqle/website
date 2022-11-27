@@ -1,33 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { Container } from "react-bootstrap"
+import { Routes, Route, Navigate } from "react-router-dom"
+import { Error404 } from "./components/404"
+import { Article } from "./components/Article"
+import { Home } from "./components/Home"
+import { NavbarMenu } from "./components/Navbar"
+import { UnderDevelopment } from "./components/UnderDevelopment"
+import "./styles/global.css"
+
+const BASE_URL = "/website"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </div>
+  <>
+  <NavbarMenu />
+  <Container fluid className="my-4">
+    <Routes>
+      <Route path={`${BASE_URL}/`} element={<UnderDevelopment />} />
+      <Route path={`${BASE_URL}/404`} element={<Error404 />} />
+      <Route path={`${BASE_URL}/about`} element={<UnderDevelopment />} />
+      <Route path={`${BASE_URL}/tools`} element={<UnderDevelopment />} />
+      <Route path={`${BASE_URL}/contact`} element={<UnderDevelopment />} />
+      <Route path="*" element={<Navigate to={`${BASE_URL}/404`} />} />
+    </Routes>
+  </Container>
+  </>
   )
 }
 

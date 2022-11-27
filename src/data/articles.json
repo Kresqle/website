@@ -1,0 +1,29 @@
+{
+    "articles": [
+        {
+            "title": "Article 1",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed maximus tortor vel nisi varius, ac sagittis erat bibendum. Phasellus mi risus, vestibulum scelerisque mi at, aliquet suscipit ligula. Ut iaculis metus libero, luctus aliquet tellus semper eu. Phasellus vehicula, erat et fringilla ornare, eros diam aliquam est, et interdum quam urna ac dolor. Etiam fermentum tincidunt varius. Proin egestas elementum est, nec ultrices ex blandit vel. Fusce varius vel orci sit amet efficitur. \n\n Pellentesque ac sapien sit amet dolor rhoncus suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst. Phasellus fringilla gravida nisi eu volutpat. Mauris metus enim, interdum a sem sed, placerat facilisis nulla. Fusce sit amet dolor ut magna ullamcorper malesuada. \n\n Suspendisse accumsan convallis enim, ut dignissim ipsum aliquet ut. Fusce blandit imperdiet enim a vestibulum. Morbi consequat velit risus, quis tempus arcu lacinia ac. Morbi sodales mauris ut sapien venenatis pellentesque. Suspendisse efficitur aliquet felis, at dapibus lorem pharetra eu. Proin euismod magna vel ipsum sodales, vitae sagittis odio vestibulum. Curabitur mauris tortor, cursus et ligula vitae, vehicula rutrum arcu. Donec at maximus lectus, non vehicula enim. Maecenas euismod nibh id leo dictum, sed tincidunt neque viverra. Praesent eget volutpat nunc. \n\n Nullam ac pellentesque elit. Proin quis neque consectetur, cursus lorem sit amet, interdum nunc. Donec hendrerit aliquet felis, eu consectetur libero viverra ac. Ut eget metus a enim suscipit luctus eget et magna. Sed nunc massa, porttitor quis sagittis vitae, mattis ac lorem. In purus odio, rutrum eu feugiat nec, varius non sapien. Pellentesque tempor leo sit amet elit varius, et convallis felis posuere. Suspendisse ultricies consequat scelerisque. Integer dictum dolor at consectetur viverra. Proin sollicitudin diam sed elit maximus, sed efficitur mi rutrum. Sed nec malesuada enim. \n\n Curabitur sodales purus eu nunc dignissim scelerisque. Nam tincidunt, dui sit amet aliquet euismod, dolor odio interdum est, et pulvinar enim ipsum a turpis. Phasellus augue purus, imperdiet vel metus quis, ornare rhoncus ex. Vivamus sodales, ligula consequat condimentum interdum, turpis est interdum tellus, eu tristique leo ipsum a arcu. Pellentesque in felis nec ex vestibulum gravida ac sed leo. Nulla nisi justo, bibendum ut est vel, suscipit mollis elit. Sed id dignissim felis. Donec aliquet, libero vel tincidunt fringilla, turpis lectus hendrerit nunc, at elementum est augue non libero. \n\n Integer fermentum diam arcu, eget commodo urna auctor eget. Maecenas vitae nisl et urna faucibus porttitor. Aliquam ut congue ligula, ut ullamcorper ligula. Nunc vulputate quam nec ipsum mollis dignissim. Ut quis velit vehicula, mattis tortor eget, fringilla libero. Proin scelerisque, ligula nec vulputate laoreet, libero mi fringilla elit, sit amet porta turpis mauris sit amet purus. Sed molestie consectetur velit vel mollis. Phasellus elit urna, elementum at nisl sit amet, ultrices euismod quam. Fusce sed massa urna. Vivamus consectetur dapibus eros, non venenatis justo vehicula non. Cras mollis vel elit vel sodales. Morbi vitae augue ac ligula consequat sollicitudin at a velit. Suspendisse feugiat erat ligula, vel porttitor erat imperdiet ac.",
+            "id": "0"
+        },
+        {
+            "title": "Article 2",
+            "body": "This is the article number 2, hope you like it !",
+            "id": "1"
+        },
+        {
+            "title": "Article 3",
+            "body": "This is the article number 3, hope you like it !",
+            "id": "2"
+        },
+        {
+            "title": "Article 4",
+            "body": "This is the article number 4, hope you like it !",
+            "id": "3"
+        },
+        {
+            "title": "Article 5",
+            "body": "This is the article number 5, hope you like it !",
+            "id": "4"
+        }
+    ]
+}
